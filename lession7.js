@@ -1,0 +1,27 @@
+"use strict";
+var isDone = false;
+console.log(isDone);
+var decima = 6;
+console.log(decima);
+var string = "Hello word";
+console.log(string);
+var nam = "Nam";
+var age = 1993;
+var sentense = "Hello , I'm Nguyen Thanh " + nam + " and I'm " + (2017 - age) + " years old";
+console.log(sentense);
+var list = [1, 2, 3];
+var lists = ['1', '2', '3'];
+var listlist = ['1', '2', 3];
+var x = [1, "av"];
+console.log(list);
+console.log(lists);
+console.log(listlist);
+console.log(x[1]);
+var Color;
+(function (Color) {
+    Color[Color["Red"] = 1] = "Red";
+    Color[Color["Green"] = 2] = "Green";
+    Color[Color["Blue"] = 4] = "Blue";
+})(Color || (Color = {}));
+var c = Color.Green;
+console.log(c);
